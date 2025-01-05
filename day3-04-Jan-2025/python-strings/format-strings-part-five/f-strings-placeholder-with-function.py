@@ -15,3 +15,10 @@ def multiply(num):
 
 fstringPlaceholderwithFunction = f"The Price is {multiply(number)} INR"
 print(fstringPlaceholderwithFunction)
+
+
+def message():
+  print ("I am a function, edit me to do operations instead of this message")
+
+fstringPlaceholderwithFunction1 = f"{message()}"
+
