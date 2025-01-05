@@ -4,5 +4,5 @@ def square(num):
 
 num = 5
 squareRoot = f"The square root of {num} is {square(num)}"
-print(squareRoot)
+print(squareRoot) # Returns The square root of 5 is 25
 

@@ -14,11 +14,11 @@ def multiply(num):
   return num * 2
 
 fstringPlaceholderwithFunction = f"The Price is {multiply(number)} INR"
-print(fstringPlaceholderwithFunction)
+print(fstringPlaceholderwithFunction) # Returns The price is 10000
 
 
 def message():
   print ("I am a function, edit me to do operations instead of this message")
 
-fstringPlaceholderwithFunction1 = f"{message()}"
+fstringPlaceholderwithFunction1 = f"{message()}" # Returns I am a function, edit me to do operations instead of this message
 
