@@ -208,7 +208,7 @@ python3 set-example.py
 {False, 'apple', 2, True, 'mango', 'banana', 'kiwi'}
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
@@ -238,7 +238,7 @@ python3 setlength.py
 7
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 #
 
@@ -381,7 +381,7 @@ Traceback (most recent call last):
 TypeError: 'set' object is not callable
 ```
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 #
 
@@ -460,7 +460,7 @@ python3 access-setitems.py
 IndentationError: expected an indented block after 'for' statement on line 3
 ```
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 #
 
@@ -481,7 +481,7 @@ python3 access-setitems.py
 30
 ```
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 #
 
@@ -517,7 +517,7 @@ True
 False
 ```
 
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 #
 
@@ -554,7 +554,7 @@ None
 {50, 20, 40, 10, 60, 30}
 ```
 
-![alt text](image-6.png)
+![alt text](./images/image-6.png)
 
 ```
 numbers = {10,20,30,40,50}
@@ -602,7 +602,7 @@ python3 add-sets.py
 {70, 40, 10, 80, 50, 20, 60, 30}
 ```
 
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 
 #
 
@@ -636,7 +636,7 @@ python3 add-sets.py
 {10, 20, 'Banana', 30, 'Grapes', 40, 'Kiwi', 50, 'Apple'}
 ```
 
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 
 #
 
@@ -662,7 +662,7 @@ python3 remove-set-item.py
 {'apple', 'grapes', 'mango'}
 ```
 
-![alt text](image-9.png)
+![alt text](./images/image-9.png)
 
 ## **Note**: If the item to remove does not exist, remove() will raise an error.
 
@@ -686,7 +686,7 @@ Traceback (most recent call last):
 KeyError: 'guava'
 ```
 
-![alt text](image-10.png)
+![alt text](./images/image-10.png)
 
 ## Remove "banana" by using the discard() method:
 
@@ -707,7 +707,7 @@ python3 remove-set-item.py
 {'grapes', 'mango', 'apple'}
 ```
 
-![alt text](image-11.png)
+![alt text](./images/image-11.png)
 
 ## Note: If the item to remove does not exist, discard() will NOT raise an error.
 
@@ -751,7 +751,7 @@ Traceback (most recent call last):
 TypeError: set.pop() takes no arguments (1 given)
 ```
 
-![alt text](image-12.png)
+![alt text](./images/image-12.png)
 
 ```
 fruits = {"apple","banana", "grapes", "mango"}
@@ -768,7 +768,7 @@ python3 remove-set-item-using-pop-method.py
 mango
 ```
 
-![alt text](image-13.png)
+![alt text](./images/image-13.png)
 
 ## Note
 
@@ -801,7 +801,7 @@ None
 <class 'NoneType'>
 ```
 
-![alt text](image-14.png)
+![alt text](./images/image-14.png)
 
 #
 
@@ -831,7 +831,7 @@ Traceback (most recent call last):
 NameError: name 'fruits' is not defined
 ```
 
-![alt text](image-15.png)
+![alt text](./images/image-15.png)
 
 #
 
@@ -892,7 +892,7 @@ NameError: name 'fruits' is not defined
     {'mango', 'banana', 'sachin', 'dhoni', 'sehwag', 'apple'}
    ```
 
-   ![alt text](image-16.png)
+   ![alt text](./images/image-16.png)
 
    #
 
@@ -923,7 +923,7 @@ NameError: name 'fruits' is not defined
    <class 'set'>
    ```
 
-   ![alt text](image-17.png)
+   ![alt text](./images/image-17.png)
 
    #
 
@@ -949,7 +949,7 @@ NameError: name 'fruits' is not defined
    <class 'set'>
    ```
 
-   ![alt text](image-18.png)
+   ![alt text](./images/image-18.png)
 
    #
 
@@ -976,7 +976,7 @@ NameError: name 'fruits' is not defined
    <class 'set'>
    ```
 
-   ![alt text](image-20.png)
+   ![alt text](./images/image-20.png)
 
    ### Note
 
@@ -1013,7 +1013,7 @@ NameError: name 'fruits' is not defined
      <class 'set'>
      ```
 
-     ![alt text](image-21.png)
+     ![alt text](./images/image-21.png)
 
      #
 
@@ -1046,7 +1046,7 @@ NameError: name 'fruits' is not defined
      <class 'set'>
      ```
 
-     ![alt text](image-22.png)
+     ![alt text](./images/image-22.png)
 
 # 2. Intersection
 
@@ -1072,7 +1072,7 @@ Output:
      <class 'set'>
      ```
 
-![alt text](image-23.png)
+![alt text](./images/image-23.png)
 
 ### You can use the & operator instead of the intersection() method, and you will get the same result.
 
@@ -1094,7 +1094,7 @@ python3 intersection-method.py
 <class 'set'>
 ```
 
-![alt text](image-24.png)
+![alt text](./images/image-24.png)
 
 ### Note
 
@@ -1132,7 +1132,7 @@ python3 intersection-method.py
 
 ```
 
-![alt text](image-25.png)
+![alt text](./images/image-25.png)
 
 ### The & operator only allows you to join sets with sets, and not with other data types
 
@@ -1166,7 +1166,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for &: 'set' and 'tuple'
 ```
 
-![alt text](image-26.png)
+![alt text](./images/image-26.png)
 
 ## The intersection_update() method will also keep ONLY the duplicates, but it will change the original set instead of returning a new set.
 
