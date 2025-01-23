@@ -1453,8 +1453,6 @@ python3 difference-method.py
 
 # Set Methods
 
-## Method ## Shortcut ##Description
-
 | Method                        | Shortcut | Description                                                                    |
 | ----------------------------- | -------- | ------------------------------------------------------------------------------ |
 | add()                         |          | Adds an element to the set                                                     |
