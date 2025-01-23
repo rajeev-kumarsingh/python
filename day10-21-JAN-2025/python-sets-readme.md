@@ -1212,3 +1212,241 @@ python3 intersection-method.py
 ```
 
 ![alt text](./images/image-28.png)
+
+# 3. Difference
+
+### The difference() method will return a new set that will contain only the items from the first set that are not present in the other set.
+
+### Example:
+
+```
+set1 = {"Rajeev", "Kumar", "Singh","DevOps"}
+list1 = ["DevOps"]
+tuple1 = ("Singh", "Engineer")
+set1.difference(list1,tuple1)
+set1Dif = set1.difference(list1)
+set1Dif2 = set1.difference(tuple1)
+print(set1)
+print(type(set1))
+print(type(list1))
+print(type(tuple1))
+print(set1Dif)
+print(set1Dif2)
+
+```
+
+Output:
+
+```
+python3 difference-method.py
+{'Singh', 'DevOps', 'Rajeev', 'Kumar'}
+<class 'set'>
+<class 'list'>
+<class 'tuple'>
+{'Singh', 'Rajeev', 'Kumar'}
+{'DevOps', 'Rajeev', 'Kumar'}
+```
+
+![alt text](./images/image-29.png)
+
+## You can use the **-** operator instead of the difference() method, and you will get the same result.
+
+## Example
+
+### Note
+
+The - operator only allows you to join sets with sets, and not with other data types like you can with the difference() method.
+
+```
+set1 = {"Rajeev", "Kumar", "Singh","DevOps"}
+set2 = {"Kumar", "Singh"}
+# use the - operator instead of difference() method
+#The - operator only allows you to join sets with sets,
+# and not with other data types like you can with the difference() method.
+set1MinusOperator = set1-set2
+list1 = ["DevOps"]
+tuple1 = ("Singh", "Engineer")
+set1.difference(list1,tuple1)
+set1Dif = set1.difference(list1)
+set1Dif2 = set1.difference(tuple1)
+print(set1)
+print(type(set1))
+print(type(list1))
+print(type(tuple1))
+print(set1Dif)
+print(set1Dif2)
+
+```
+
+Output:
+
+```
+python3 difference-method.py
+{'Kumar', 'DevOps', 'Rajeev', 'Singh'}
+<class 'set'>
+<class 'list'>
+<class 'tuple'>
+{'Kumar', 'Rajeev', 'Singh'}
+{'Kumar', 'DevOps', 'Rajeev'}
+
+```
+
+![alt text](./images/image-30.png)
+
+# difference_update()
+
+## The difference_update() method will also keep the items from the first set that are not in the other set, but it will change the original set instead of returning a new set.
+
+## Example:
+
+```
+set1 = {"apple", "mango", "kiwi", "banana"}
+set2 = {"kiwi", "grapes", "banana"}
+setDifferenceUpdate = set1.difference_update(set2)
+set1.difference_update(set2)
+print(setDifferenceUpdate)
+print( "Type of setDifferenceUpdate is ",type(setDifferenceUpdate))
+print(set1)
+print(type(set1))
+```
+
+Output:
+
+```
+python3 difference-method.py
+None
+Type of setDifferenceUpdate is  <class 'NoneType'>
+{'apple', 'mango'}
+<class 'set'>
+
+```
+
+![alt text](./images/image-31.png)
+
+# Symmetric Differences
+
+## The symmetric_difference() method will keep only the elements that are NOT present in both sets.
+
+## Example:
+
+```
+set1 = {"apple", "mango", "kiwi", "banana"}
+set2 = {"kiwi", "grapes", "banana"}
+setDifferenceUpdate = set1.symmetric_difference(set2)
+set1.symmetric_difference(set2)
+print(setDifferenceUpdate)
+print( "Type of setDifferenceUpdate is ",type(setDifferenceUpdate))
+print(set1)
+print(type(set1))
+```
+
+Output:
+
+```
+ python3 difference-method.py
+{'apple', 'grapes', 'mango'}
+Type of setDifferenceUpdate is  <class 'set'>
+{'mango', 'apple', 'kiwi', 'banana'}
+<class 'set'>
+```
+
+![alt text](./images/image-32.png)
+
+## You can use the ^ operator instead of the symmetric_difference() method, and you will get the same result.
+
+Example:
+
+```
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set3 = set1 ^ set2
+print(set3)
+```
+
+Output:
+
+```
+python3 difference-method.py
+{'banana', 'cherry', 'google', 'microsoft'}
+```
+
+![alt text](./images/image-33.png)
+
+## Note
+
+#### The ^ operator only allows you to join sets with sets, and not with other data types like you can with the symmetric_difference() method.
+
+Example:
+
+```
+set1 = {"apple", "banana", "cherry"}
+list1 = ["google", "microsoft", "apple"]
+
+set1.difference_update(list1)
+#set3 = set1 ^ list1
+print(set1)
+#print(set4)
+```
+
+Output:
+
+```
+python3 difference-method.py
+{'cherry', 'banana'}
+```
+
+![alt text](./images/image-34.png)
+
+## ^ with different type
+
+```
+set1 = {"apple", "banana", "cherry"}
+list1 = ["google", "microsoft", "apple"]
+
+#set1.difference_update(list1)
+set3 = set1 ^ list1
+#print(set1)
+print(set3)
+```
+
+Output
+
+```
+python3 difference-method.py
+Traceback (most recent call last):
+  File "/Users/rajeevsingh/Documents/learning-python/day10-21-JAN-2025/difference-method.py", line 116, in <module>
+    set3 = set1 ^ list1
+           ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for ^: 'set' and 'list'
+```
+
+![alt text](./images/image-35.png)
+
+# symmetric_difference_update()
+
+## The symmetric_difference_update() method will also keep all but the duplicates, but it will change the original set instead of returning a new set.
+
+### Example:
+
+#### Use the symmetric_difference_update() method to keep the items that are not present in both sets:
+
+```
+set1 = {"apple", "banana", "cherry"}
+set2 = {"google", "microsoft", "apple"}
+
+set1.symmetric_difference_update(set2)
+
+print(set1)
+
+```
+
+Output:
+
+```
+python3 difference-method.py
+{'google', 'microsoft', 'banana', 'cherry'}
+<class 'set'>
+```
+
+![alt text](./images/image-36.png)
