@@ -1456,7 +1456,7 @@ python3 difference-method.py
 ## Method ## Shortcut ##Description
 
 | Method                        | Shortcut | Description                                                                    |
-| :---------------------------- | :------- | :----------------------------------------------------------------------------- | ---------------------------------------------------- | --- |
+| ----------------------------- | -------- | ------------------------------------------------------------------------------ |
 | add()                         |          | Adds an element to the set                                                     |
 | clear()                       |          | Removes all the elements from the set                                          |
 | copy()                        |          | Returns a copy of the set                                                      |
@@ -1474,16 +1474,5 @@ python3 difference-method.py
 | remove()                      |          | Removes the specified element                                                  |
 | symmetric_difference()        | ^        | Returns a set with the symmetric differences of two sets                       |
 | symmetric_difference_update() | ^=       | Inserts the symmetric differences from this set and another                    |
-| union()                       |          | Return a set containing the union of sets                                      |                                                      |
-| update()                      |          | =                                                                              | Update the set with the union of this set and others |     |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
-|                               |          |                                                                                |
+| union()                       |          | Return a set containing the union of sets                                      |
+| update()                      |          | Update the set with the union of this set and others                           |
