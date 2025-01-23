@@ -1188,7 +1188,7 @@ python3 intersection-method.py
 <class 'set'>
 ```
 
-![alt text](image-27.png)
+![alt text](./images/image-27.png)
 
 ## The values True and 1 are considered the same value. The same goes for False and 0.
 
@@ -1211,4 +1211,4 @@ python3 intersection-method.py
 <class 'set'>
 ```
 
-![alt text](image-28.png)
+![alt text](./images/image-28.png)
