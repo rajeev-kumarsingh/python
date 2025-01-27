@@ -35,7 +35,7 @@ for values in myDict.values():
   print("Values of Dictionary keys: ",values)
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
@@ -77,7 +77,7 @@ g
 h
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 #
 
@@ -102,7 +102,7 @@ Kumar
 Singh
 ```
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 #
 
@@ -127,7 +127,7 @@ Kumar
 Singh
 ```
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 #
 
@@ -153,7 +153,7 @@ Rajeev
 Kumar
 ```
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 #
 
@@ -190,7 +190,7 @@ dict_items([('name', 'Rajeev Kumar Singh'), ('Age', 32), ('Profession', 'DevOps 
 dict_values(['Rajeev Kumar Singh', 32, 'DevOps Engineer'])
 ```
 
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 #
 
@@ -223,7 +223,7 @@ Age
 name
 ```
 
-![alt text](image-6.png)
+![alt text](./images/image-6.png)
 
 #
 
@@ -247,7 +247,7 @@ Rajeev
 Singh
 ```
 
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 
 #
 
@@ -292,7 +292,7 @@ python3 range-function.py
 5
 ```
 
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 
 #
 
@@ -315,7 +315,7 @@ python3 range-function.py
 7
 ```
 
-![alt text](image-9.png)
+![alt text](./images/image-9.png)
 
 #
 
@@ -337,7 +337,7 @@ python3 range-function.py
 9
 ```
 
-![alt text](image-10.png)
+![alt text](./images/image-10.png)
 
 ```
 for i in range(1,10,4):
@@ -353,7 +353,7 @@ python3 range-function.py
 9
 ```
 
-![alt text](image-11.png)
+![alt text](./images/image-11.png)
 
 #
 
@@ -376,7 +376,7 @@ python3 range-function.py
 
 ```
 
-![alt text](image-12.png)
+![alt text](./images/image-12.png)
 
 #
 
@@ -423,7 +423,7 @@ Reverse sequence:  [20, 16, 12, 8, 4, 0, -4, -8]
 
 ```
 
-![alt text](image-13.png)
+![alt text](./images/image-13.png)
 
 #
 
@@ -445,7 +445,7 @@ iteration 1
 iteration 2
 ```
 
-![alt text](image-14.png)
+![alt text](./images/image-14.png)
 
 #
 
@@ -468,7 +468,7 @@ Index-3 : item4
 Index-4 : item4
 ```
 
-![alt text](image-15.png)
+![alt text](./images/image-15.png)
 
 #
 
@@ -497,7 +497,7 @@ Odd number list between 1 to 24:  [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
 <class 'list'>
 ```
 
-![alt text](image-16.png)
+![alt text](./images/image-16.png)
 
 #
 
@@ -536,7 +536,7 @@ python3 else-in-for-loop.py
 Finally loop has ended!
 ```
 
-![alt text](image-17.png)
+![alt text](./images/image-17.png)
 
 #
 
@@ -567,7 +567,7 @@ python3 else-in-for-loop.py
 finally loop has ended
 ```
 
-![alt text](image-18.png)
+![alt text](./images/image-18.png)
 
 #
 
@@ -594,7 +594,7 @@ python3 else-in-for-loop.py
 3
 ```
 
-![alt text](image-19.png)
+![alt text](./images/image-19.png)
 
 #
 
@@ -629,7 +629,7 @@ tasty banana
 tasty cherry
 ```
 
-![alt text](image-20.png)
+![alt text](./images/image-20.png)
 
 #
 
@@ -662,7 +662,7 @@ python3 pass-statement.py
 
 ```
 
-![alt text](image-21.png)
+![alt text](./images/image-21.png)
 
 #
 
@@ -685,4 +685,4 @@ python3 pass-statement.py
 IndentationError: expected an indented block after 'for' statement on line 29
 ```
 
-![alt text](image-22.png)
+![alt text](./images/image-22.png)
