@@ -24,7 +24,7 @@ python3 def.py
 I am from inside function
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
@@ -54,7 +54,7 @@ Welcome Rajeev to the python function class
 Welcome Shiva to the python function class
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 #
 
@@ -93,7 +93,7 @@ Addition of your passed arguments is : 10
 Addition of your passed arguments is : 110
 ```
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 #
 
@@ -113,7 +113,7 @@ python3 funtion-with-arguments.py
 Hello Rajeev  Singh
 ```
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 #
 
@@ -139,7 +139,7 @@ Traceback (most recent call last):
 TypeError: display_name() takes 2 positional arguments but 3 were given
 ```
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 #
 
@@ -161,7 +161,7 @@ Traceback (most recent call last):
 TypeError: display_name() missing 1 required positional argument: 'lname'
 ```
 
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 #
 
@@ -191,7 +191,7 @@ Your fav fruit is:  ('Apple', 'Mango', 'Kiwi', 'Banana')
 Your fav fruit is:  Apple
 ```
 
-![alt text](image-6.png)
+![alt text](./images/image-6.png)
 
 #
 
@@ -219,7 +219,7 @@ My fav fruit is:  Kiwi
 
 ```
 
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 <mark>Note:</mark>The phrase Keyword Arguments are often shortened to kwargs in Python documentations.
 
 #
@@ -250,7 +250,7 @@ First name is:  Rajeev
 
 ```
 
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 
 #
 
@@ -289,7 +289,7 @@ I am from  Switzerland
 
 ```
 
-![alt text](image-9.png)
+![alt text](./images/image-9.png)
 
 #
 
@@ -321,7 +321,7 @@ Kiwi
 
 ```
 
-![alt text](image-10.png)
+![alt text](./images/image-10.png)
 
 #
 
@@ -354,7 +354,7 @@ python3 return-statement.py
 
 ```
 
-![alt text](image-11.png)
+![alt text](./images/image-11.png)
 
 #
 
@@ -377,7 +377,7 @@ python3 pass-statement.py
 
 ```
 
-![alt text](image-12.png)
+![alt text](./images/image-12.png)
 
 #
 
@@ -409,7 +409,7 @@ False
 
 ```
 
-![alt text](image-13.png)
+![alt text](./images/image-13.png)
 
 #
 
@@ -431,7 +431,7 @@ python3 positional-only-arguments.py
 
 ```
 
-![alt text](image-14.png)
+![alt text](./images/image-14.png)
 
 #
 
@@ -459,7 +459,7 @@ TypeError: positional_only_arguments() got some positional-only arguments passed
 
 ```
 
-![alt text](image-15.png)
+![alt text](./images/image-15.png)
 
 #
 
@@ -484,7 +484,7 @@ python3 keyword-only-argument.py
 
 ```
 
-![alt text](image-16.png)
+![alt text](./images/image-16.png)
 
 #
 
@@ -508,7 +508,7 @@ python3 keyword-only-argument.py
 
 ```
 
-![alt text](image-17.png)
+![alt text](./images/image-17.png)
 
 #
 
@@ -547,7 +547,7 @@ TypeError: my_fun() takes 0 positional arguments but 1 was given
 
 ```
 
-![alt text](image-18.png)
+![alt text](./images/image-18.png)
 
 #
 
@@ -572,7 +572,7 @@ python3 combine-positional-only-and-keyword-only.py
 
 ```
 
-![alt text](image-19.png)
+![alt text](./images/image-19.png)
 
 #
 
@@ -623,7 +623,7 @@ TypeError: flexible_function() takes 1 positional argument but 3 were given
 
 ```
 
-![alt text](image-20.png)
+![alt text](./images/image-20.png)
 
 #
 
