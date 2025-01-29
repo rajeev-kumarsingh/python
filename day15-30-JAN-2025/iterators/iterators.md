@@ -39,7 +39,7 @@ item3
 item4
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
@@ -65,7 +65,7 @@ item3
 
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 #
 
@@ -124,7 +124,7 @@ g
 h
 ```
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 #
 
@@ -152,7 +152,7 @@ item4
 item5
 ```
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 #
 
@@ -185,7 +185,7 @@ e
 v
 ```
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 #
 
@@ -244,7 +244,7 @@ python3 iter-with-class-and-object.py
 
 ```
 
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 #
 
@@ -300,4 +300,4 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-![alt text](image-6.png)
+![alt text](./images/image-6.png)

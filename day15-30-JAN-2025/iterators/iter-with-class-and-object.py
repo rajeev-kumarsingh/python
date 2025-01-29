@@ -55,3 +55,6 @@ print(next(myiter))
 print(next(myiter))
 print(next(myiter))
 print(next(myiter))
+
+for x in myiter:
+  print(x)
