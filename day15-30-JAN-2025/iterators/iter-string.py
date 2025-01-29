@@ -1,0 +1,23 @@
+# Strings are also iterable objects, 
+# containing a sequence of characters:
+name = "Rajeev Kumar Singh"
+striter = iter(name)
+print(striter)
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
+print(next(striter))
