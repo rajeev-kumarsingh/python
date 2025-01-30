@@ -25,7 +25,7 @@ python3 len-function.py
 6
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
@@ -74,7 +74,7 @@ Sail
 fly
 ```
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 Look at the for loop at the end. Because of polymorphism we can execute the same method for all three classes.
 
 #
@@ -131,7 +131,7 @@ Fly
 
 ```
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 #
 
