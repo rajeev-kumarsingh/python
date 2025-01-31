@@ -62,7 +62,7 @@ python3 findall-function.py
 ['a', 'm', 'l', 'e', 'a', 'i', 'g', 'e', 'g', 'e', 'g', 'l', 'a', 'e', 'i', 'i', 'a', 'e', 'e', 'c', 'e', 'f', 'c', 'h', 'a', 'a', 'c', 'e', 'h', 'a', 'f', 'm', 'a', 'e', 'a', 'c', 'h', 'a', 'e']
 ```
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 #
 
