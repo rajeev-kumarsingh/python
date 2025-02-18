@@ -241,3 +241,53 @@ f.close()
 ![alt text](./images/image-9.png)
 
 #
+
+# Delete file
+
+- To delete a file, you must import the OS module, and run its os.remove() function:
+
+```
+'''
+
+To delete a file, you must import the OS module,
+and run its os.remove() function:
+
+Check if File exist:
+To avoid getting an error,
+ you might want to check if the file exists before you try to delete it:
+
+'''
+import os
+if os.path.exists("./delete-files/myfile"):
+  os.remove("./delete-files/myfile")
+else:
+  print("The file does not exist")
+
+```
+
+![alt text](./images/image-10.png)
+
+#
+
+# Delete Folder
+
+- To delete an entire folder, use the os.rmdir() method:
+
+```
+'''
+To delete an entire folder, use the os.rmdir() method:
+
+'''
+import os
+# To delete an entire folder, use the os.rmdir() method:
+if os.path.exists("./delete-files/test-folder"):
+  os.rmdir("./delete-files/test-folder")
+else:
+  print("The folder is not exist")
+```
+
+![alt text](./images/image-11.png)
+
+#
+
+# Note: You can only remove empty folders.
